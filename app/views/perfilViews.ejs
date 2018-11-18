@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/perfilstyle.css">
+    <title>Sou gênio</title>
+</head>
+<body>
+    <div class="gridIndex">
+    <div class="itemIndex1">
+        <h1><%=usuario[0].nome%></h1>    
+    </div>
+    <div class="itemIndex2">
+        <div class="painel">
+            <div class="jogo">
+                <div class="painelBody">
+                    <h2>Frutas</h2>
+                    <h3>Nível</h3>
+                    <p><%=nivel[0].jogonivel1%></p>
+                </div>
+                <div class="displayButton">
+                    <form action="/jogarFruta" method="post">
+                        <button type="submit" class="verde">Jogar</button>
+                    </form>
+                    <form action="/zerarFruta" method="post">
+                        <button type="submit" class="vermelho">Zerar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="jogo">
+                <div class="painelBody">
+                    <h2>Obejtos</h2>
+                    <h3>Nível</h3>
+                    <p><%=nivel[0].jogonivel2%></p>
+                </div>
+                <div class="displayButton">
+                    <form action="/jogarObjeto" method="post">
+                        <button class="verde" type="submit">Jogar</button>
+                    </form>
+                    <form action="/zerarObejeto" method="post">
+                        <button class="vermelho" type="submit">Zerar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="jogo">
+                <div class="painelBody">
+                    <h2>Frases</h2>
+                    <h3>Nível</h3>
+                    <p><%=nivel[0].jogonivel8%></p>
+                </div>
+                <div class="displayButton">
+                    <form action="/jogarFrases" method="post">
+                        <button type="submit" class="verde">Jogar</button>
+                    </form>
+                    <form action="/zerarFrases" method="post">
+                        <button type="submit" class="vermelho">Zerar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="jogo">
+                <div class="painelBody">
+                    <h2>Continhas</h2>
+                    <h3>Nível</h3>
+                    <p><%=nivel[0].jogonivel9%></p>
+                </div>
+                <div class="displayButton">
+                    <form action="/jogarConta" method="post">
+                        <button class="verde" type="submit">Jogar</button>
+                    </form>
+                    <form action="/zerarConta" method="post">
+                        <button class="vermelho" type="submit">Zerar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="jogo">
+                <div class="painelBody">
+                    <h2>Comparação</h2>
+                    <h3>Nível</h3>
+                    <p><%=nivel[0].jogonivel10%></p>
+                </div>
+                <div class="displayButton">
+                    <form action="/jogarComparar" method="post">
+                        <button type="submit" class="verde">Jogar</button>
+                    </form>
+                    <form action="/zerarComparar" method="post">
+                        <button type="submit" class="vermelho">Zerar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

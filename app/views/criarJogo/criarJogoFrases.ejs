@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/criarStyle.css">
+    <title>Criar jogo</title>
+</head>
+<body>
+    <main class="container">
+        <section class='item'>
+        <h1>Jogo Frases</h1> 
+        <form class='item' class="form" action="/cadastrarFrases" method="post">
+            <br><br>
+            
+            <label class="formCadastro" for="nomeimg">Nome da imagem</label>
+            <input class="formCadastro" type="text" name="nomeimg" id="nomeimg">
+            <br><br>
+            
+            <input class="formCadastro" type="radio" name="resposta" id="resposta1" value="1">
+            <label class="formCadastro" for="respota1">Se a primeira resposta for a certa</label>
+            <br><br>
+            <input class="formCadastro" type="radio" name="resposta" id="resposta2" value="2">
+            <label class="formCadastro"for="respota2">Se a segunda resposta for a certa</label>
+            <br>
+            <br>
+            <input class="formCadastro" type="radio" name="resposta" id="resposta3" value="3">
+            <label class="formCadastro"for="respota3">Se a terceira resposta for a certa</label>
+            <br><br>
+            <label class="formCadastro"for="opcao1">Opção1</label>
+            <input class="formCadastro" type="text" name="opcao1" id="opcao1">
+            
+            <label class="formCadastro"for="opcao2">Opção2</label>
+            <input class="formCadastro" type="text" name="opcao2" id="opcao2">
+            
+            <label class="formCadastro"for="opcao3">Opção3</label>
+            <input class="formCadastro" type="text" name="opcao3" id="opcao3">
+            
+            <input type="hidden" name="autor" value="<%=usuario[0].email%>">
+            
+            <button class="button" type="submit">Criar</button>
+            
+        </form>
+        <form action="/voltarAdm" method="post">
+            <button class="button" type="submit">Voltar</button>
+        </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/perfilstyle.css">
+    <title>Document</title>
+</head>
+<body>    
+    <div class="gridIndex">
+        <div class="itemIndex1">
+            <h1>ADM <%=usuario[0].nome%></h1>    
+        </div>
+        <div class="itemIndex2">
+            <div class="painel">
+                <div class="jogo">
+                    <div class="painelBody">
+                        <h2>Criar jogo fruta</h2>
+                    </div>
+                    <div class="displayButton">
+                        <form action="/criarFruta" method="post">
+                            <button class="verde" type="submit">Criar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="painelBody">
+                        <h2>Criar jogo objeto</h2>
+                    </div>
+                    <div class="displayButton">
+                        <form action="/criarObjeto" method="post">
+                            <button class="verde" type="submit">Criar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="painelBody">
+                        <h2>Criar jogo frases</h2>
+                    </div>
+                    <div class="displayButton">
+                        <form action="/criarFrases" method="post">
+                            <button class="verde" type="submit">Criar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="painelBody">
+                        <h2>Criar jogo conta</h2>
+                    </div>
+                    <div class="displayButton">
+                        <form action="/criarConta" method="post">
+                            <button class="verde" type="submit">Criar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="jogo">
+                    <div class="painelBody">
+                        <h2>Criar jogo comparar</h2>
+                    </div>
+                    <div class="displayButton">
+                        <form action="/criarComparar" method="post">
+                            <button class="verde" type="submit">Criar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

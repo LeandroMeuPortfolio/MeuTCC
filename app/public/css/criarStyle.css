@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+@media only screen and (min-width:901px){
+    .container{
+        display: grid;
+        grid-auto-columns: 15vw 70vw 15vw;
+        grid-auto-rows: 5vh 90vh 5vh;
+    }
+    .item{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: cadetblue;
+    }
+    
+    input[type="text"]{
+        margin: auto; 
+        display: block;
+        width: 90%;
+        height: 25px;
+        margin-top: 10px;
+    }
+    input[type="radio"]{
+        width: 20px;    
+        height: 20px;
+        
+    }
+    label{
+        margin-left: 10px;
+        font-size: 1.2em;
+    }
+    .button{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    .button2{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 100px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    
+    
+}
+@media only screen and (max-width: 900px){
+    .container{
+        display: grid;
+        grid-auto-columns: 15vw 70vw 15vw;
+        grid-auto-rows: 5vh 90vh 5vh;
+    }
+    .item{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: cadetblue;
+    }
+    
+    input[type="text"]{
+        margin: auto; 
+        display: block;
+        width: 90%;
+        height: 25px;
+        margin-top: 10px;
+    }
+    input[type="radio"]{
+        width: 20px;    
+        height: 20px;
+        
+    }
+    .opcao{
+        display: block;
+    }
+    label{
+        margin-left: 10px;
+        font-size: 1.2em;
+    }
+    .button{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    .button2{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 100px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .container{
+        display: grid;
+        grid-auto-columns: 5vw 90vw 5vw;
+        grid-auto-rows: 5vh auto 5vh;
+    }
+    .item{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: cadetblue;
+    }
+    
+    input[type="text"]{
+        margin: auto; 
+        display: block;
+        width: 90%;
+        height: 25px;
+        margin-top: 10px;
+    }
+    input[type="radio"]{
+        width: 20px;    
+        height: 20px;
+        
+    }
+    label{
+        margin-left: 10px;
+        font-size: 1.2em;
+    }
+    .button{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    .button2{
+        background-color: green;
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: calc(50% - 50px);
+        color: #fff;
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    .opcao{
+        display: block;
+    }
+    
+}

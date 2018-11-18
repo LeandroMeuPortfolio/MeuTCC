@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/criarStyle.css">
+    <title>Criar jogo</title>
+</head>
+<body>
+    <main class="container">
+        <!--<form action="/profile" method="post" enctype="multipart/form-data">-->
+        <section class='item'>
+            <h1>Jogo Comparar</h1> 
+        <form class="form" action="/cadastrarComparar" method="post">
+            <br><br>
+            <label class="formCadastro" for="numero1">Insira o primeiro numero</label>
+            <input class="formCadastro" type="number" name="numero1" id="numero1">
+            <br><br>
+
+            <label class="formCadastro" for="numero2">Insira o segundo numero</label>
+            <input class="formCadastro" type="number" name="numero2" id="numero2">
+            <br><br>
+
+            <input class="formCadastro" type="radio" name="resposta" id="resposta1" value="1">
+            <label class="formCadastro" for="respota1">Se a primeira resposta for a certa</label>
+            <br><br>
+            <input class="formCadastro" type="radio" name="resposta" id="resposta2" value="2">
+            <label class="formCadastro"for="respota2">Se a segunda resposta for a certa</label>
+            <br>
+            <br>
+            <input class="formCadastro" type="radio" name="resposta" id="resposta3" value="3">
+            <label class="formCadastro"for="respota3">Se a terceira resposta for a certa</label>
+            <br><br>
+
+               
+            <label class="formCadastro"for="opcao1">Opção1</label>
+            <br>     
+            <input class="formCadastro" type="radio" name="opcao1" id="maior" value="Maior &gt;">
+            <label class="formCadastro" for="maior">Maior &gt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao1" id="menor" value="Menor &lt;">
+            <label class="formCadastro"for="menor">Menor &lt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao1" id="igual" value="Igual =">
+            <label class="formCadastro"for="igual">Igual =</label>
+            <br><br>
+            <label class="formCadastro"for="opcao2">Opção2</label>
+            <br>     
+            <input class="formCadastro" type="radio" name="opcao2" id="maior" value="Maior &gt;">
+            <label class="formCadastro" for="maior">Maior &gt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao2" id="menor" value="Menor &lt;">
+            <label class="formCadastro"for="menor">Menor &lt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao2" id="igual" value="Igual =">
+            <label class="formCadastro"for="igual">Igual =</label>
+            <br><br>
+            
+            <label class="formCadastro"for="opcao3">Opção3</label>
+            <br>     
+            <input class="formCadastro" type="radio" name="opcao3" id="maior" value="Maior &gt;">
+            <label class="formCadastro" for="maior">Maior &gt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao3" id="menor" value="Menor &lt;">
+            <label class="formCadastro"for="menor">Menor &lt;</label>
+            
+            <input class="formCadastro" type="radio" name="opcao3" id="igual" value="Igual =">
+            <label class="formCadastro"for="igual">Igual =</label>
+            <br>
+            <input type="hidden" name="autor" value="<%=usuario[0].email%>">
+            
+            <button class="button" type="submit">Criar</button>
+        </form>
+        <form action="/voltarAdm" method="post">
+            <button class="button" type="submit">Voltar</button>
+        </form>
+        </section>
+    </main>
+</body>
+</html>

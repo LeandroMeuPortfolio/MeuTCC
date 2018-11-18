@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+
+@media only screen and (min-width:901px){
+    body{
+        background-color: #ddd;
+    }
+    .jogo{
+        background-color:#bbb;
+        color: black;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    .painelBody{
+        text-align: center;
+        height: 120px;
+    }
+    .displayButton{   
+        display: flex;
+        justify-content: space-around;
+    }
+    h2, h3{
+        margin: 20px;
+    }
+    button[class="vermelho"]{
+        background-color: red;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    button[class="verde"]{
+        background-color: green;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    .gridIndex{
+        display: grid;
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 10vh 90vh;
+    }
+    .itemIndex1{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        background-color: darkblue;
+        display: flex;
+        justify-content: flex-start;
+        color: #fff;
+    }
+    h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15vw; 
+    }
+    .itemIndex2{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: #eee;  
+    }
+    .painel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+} 
+@media only screen and (max-width:900px){
+    body{
+        background-color: #ddd;
+    }
+    .jogo{
+        background-color:#bbb;
+        color: black;
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .painelBody{
+        text-align: center;
+        height: 120px;
+    }
+    .displayButton{   
+        display: flex;
+        justify-content: space-around;
+    }
+    h2, h3{
+        margin: 20px;
+    }
+    button[class="vermelho"]{
+        background-color: red;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    button[class="verde"]{
+        background-color: green;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    .gridIndex{
+        display: grid;
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 10vh 90vh;
+    }
+    .itemIndex1{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15vw; 
+    }
+    .itemIndex2{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: #eee;  
+    }
+    .painel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 700px){
+    body{
+        background-color: #ddd;
+    }
+    
+    .gridIndex{
+        display: grid;
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 10vh auto;
+    }
+    .itemIndex1{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    
+    .itemIndex2{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: #eee;  
+    }
+    .painel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .jogo{
+        background-color:#bbb;
+        color: black;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .painelBody{
+        text-align: center;
+        height: 120px;
+    }
+    .displayButton{   
+        display: flex;
+        justify-content: space-around;
+    }
+    h2, h3{
+        margin: 20px;
+    }
+    button[class="vermelho"]{
+        background-color: red;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    button[class="verde"]{
+        background-color: green;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15vw; 
+    }
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sou gênio</title>
+</head>
+<body>
+<div class='gridIndex'>
+    <div class='itemIndex1'>
+        <div class="itemTitle itemIndex1b">
+            <h1>Sou gênio</h1>
+        </div>
+     
+        <div class= "itemForm itemIndex2b" >           
+        <form action="/loginUsuario" method="post">
+            <label for="loginEmail">Email</label>
+            <input class='formLogin' type="text" name="email" id="loginEmail" required>
+
+            <label for="loginSenha">Senha</label>
+            <input class='formLogin' type="password" name="senha" id="loginSenha" required>
+            
+            <button class="buttonLogin"type="submit">Entrar</button>
+        </form>
+        </div> 
+    
+    </div><!--Fim da class itemIndex1-->
+
+    <section class="itemIndex2">
+        <p>a</p>
+    </section><!--Fim da class itemIndex2-->
+    <aside class="itemIndex3">
+        <form class="form" action="/cadastrarUsuarios" method="post">
+            <input class="formCadastro" type="text" name="nome" id="cadastroNome" placeholder="Nome" required>
+            
+            <input class="formCadastro" type="email" name="email" id="cadastroemail" placeholder="Email" required> 
+            
+            <input class="formCadastro" type="password" name="senha" id="cadastroSenha" placeholder="Senha" required>
+            
+            <div class="formCadastro">
+                <input type="radio" name="sexo" id="cadastroSexoF" value="f">
+                <label for="cadastroSexoF">Feminino</label>
+                
+                <input type="radio" name="sexo" id="cadastroSexom" value="m" >
+                <label for="cadastroSexoM">Masculino</label>
+            </div>
+
+            <label class="formCadastro" for="cadastrNascimento">Data de nascimento</label>
+            <input class="formCadastro" type="date" name="nascimento" id="cadastrNascimento" required>
+
+            <label class="formCadastro" for="cep">Cep</label>
+            <input  class="formCadastro" name="cep" type="text" maxlength="8" onkeypress="format('#####-###', this)" id="cep" value="" required>
+            
+            <button class="buttonCadastro" type="submit">Inscreva-se</button>
+        </form>
+    </aside><!--Fim da class itemIndex3-->
+</div>        
+</body>
+</html>
